@@ -1,12 +1,16 @@
 import { Typography, Box, Button, Paper } from "@mui/material";
-import { ReplayOutlined } from "@mui/icons-material";
 
 interface ScoreProps {
   score: number;
   fetchNewClue: () => void;
+  setHintIndex?: (index: number) => void;
 }
 
-const Score = ({ score, fetchNewClue }: ScoreProps) => {
+const Score = ({ score, fetchNewClue, setHintIndex }: ScoreProps) => {
+  const onClickNext = () => {
+    fetchNewClue();
+    setHintIndex && setHintIndex(0);
+  };
   return (
     <Paper
       elevation={3}
@@ -77,7 +81,6 @@ const Score = ({ score, fetchNewClue }: ScoreProps) => {
               sx={{
                 fontWeight: 700,
                 color: "#2e7d32",
-                textShadow: "0px 1px 2px rgba(0,0,0,0.1)",
               }}
             >
               {score}
@@ -87,7 +90,7 @@ const Score = ({ score, fetchNewClue }: ScoreProps) => {
 
         <Button
           variant="contained"
-          onClick={fetchNewClue}
+          onClick={onClickNext}
           sx={{
             borderRadius: 2,
             px: 2,
@@ -102,7 +105,7 @@ const Score = ({ score, fetchNewClue }: ScoreProps) => {
             transition: "all 0.3s ease",
           }}
         >
-          <ReplayOutlined />
+          Play Again
         </Button>
       </Box>
     </Paper>

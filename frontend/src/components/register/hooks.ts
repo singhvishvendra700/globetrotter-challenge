@@ -19,9 +19,7 @@ export const useRegister = ({ onRegister }: RegisterProps) => {
     axios
       .post(apiUrls().registerUser, { username, score })
       .then((_res) => {
-        localStorage.setItem("username", username);
         onRegister(username);
-        // `Welcome, ${username}! Your score: ${score}`
         setError(null);
       })
       .catch((err) => {

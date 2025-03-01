@@ -11,6 +11,7 @@ export const useChallengeFriend = ({ username }: ChallengeFriendProps) => {
   const [score, setScore] = useState<number | null>(null);
   const generatedImage = useSelector((state: RootState) => state.share.image);
   const imageRef = useRef<HTMLDivElement>(null);
+  const [showAlert, setShowAlert] = useState(false);
 
   const handleChallenge = () => {
     if (!username) return alert("⚠️ Please register before challenging!");
@@ -26,10 +27,11 @@ export const useChallengeFriend = ({ username }: ChallengeFriendProps) => {
   };
 
   const copyToClipboard = () => {
+    setShowAlert(true);
     if (inviteLink) {
       navigator.clipboard.writeText(inviteLink);
-      alert("✅ Invite link copied to clipboard!");
     }
+    setTimeout(() => setShowAlert(false), 2000);
   };
 
   const shareOnWhatsApp = () => {
@@ -49,10 +51,11 @@ export const useChallengeFriend = ({ username }: ChallengeFriendProps) => {
     const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(
       message
     )}`;
-    setTimeout(() => window.open(whatsappUrl, "_blank"), 1000); // Delay opening for better UX
+    setTimeout(() => window.open(whatsappUrl, "_blank"), 1000);
   };
 
   return {
+    showAlert,
     showModal,
     username,
     score,

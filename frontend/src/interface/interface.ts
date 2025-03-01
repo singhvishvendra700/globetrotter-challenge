@@ -40,8 +40,6 @@ export interface ClueCardProps {
 }
 
 export interface HeaderProps {
-  username: string | null;
-  setUsername: (username: string | null) => void;
   invitedUsername: string | null;
   inviteeScore: number | null;
 }

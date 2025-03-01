@@ -1,34 +1,50 @@
-
-
 .header-container {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 24px;
-  }
-  
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  z-index: 1000;
+}
 
-  .username-container {
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-  }
-  
+.header-banner {
+  position: relative;
+  background: linear-gradient(135deg, #4c6ef5, #9c55e0);
+  padding: 12px 24px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  color: black;
+  animation: fadeIn 0.5s ease-in-out;
+  padding-top: 24px;
+}
 
-  .username-text {
-    font-size: 1.25rem;
-  }
-  
+.close-button {
+  position: absolute !important;
+  top: 0;
+  right: 0;
+}
 
-  .logout-button {
-    font-weight: bold;
-    border: 1px solid #f44336;
-    color: #f44336;
-  }
-  
+.invited-username {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #000;
+}
 
-  .invited-username {
-    margin-top: 8px;
-    font-size: 1rem;
-    color: #555;
+.score-text {
+  font-size: 1rem;
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
   }
-  
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

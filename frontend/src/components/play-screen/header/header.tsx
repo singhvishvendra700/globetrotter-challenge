@@ -1,36 +1,30 @@
-import { Box, Typography, Button } from "@mui/material";
+import { Box, Typography, Paper, IconButton } from "@mui/material";
 import { HeaderProps } from "../../../interface/interface";
 import "./header.css";
+import CloseIcon from "@mui/icons-material/Close";
+import { useNavigate } from "react-router-dom";
 
-const Header = ({
-  username,
-  setUsername,
-  invitedUsername,
-  inviteeScore,
-}: HeaderProps) => {
+const Header = ({ invitedUsername, inviteeScore }: HeaderProps) => {
+  const navigate = useNavigate();
+  const onClose = () => {
+    navigate("/");
+  };
   return (
     <Box className="header-container">
-      {username && (
-        <Box className="username-container">
-          <Typography className="username-text">👤 {username}</Typography>
-          <Button
-            className="logout-button"
-            variant="outlined"
-            color="error"
-            onClick={() => {
-              localStorage.removeItem("username");
-              setUsername(null);
-            }}
-          >
-            Logout
-          </Button>
-        </Box>
-      )}
       {invitedUsername && (
-        <Typography className="invited-username">
-          🎉 You were challenged by {invitedUsername}! Their score:{" "}
-          {inviteeScore ?? "Loading..."}
-        </Typography>
+        <Paper elevation={2} className="header-banner">
+          <IconButton className="close-button" onClick={onClose}>
+            <CloseIcon sx={{ color: "black", fontSize: 20 }} />
+          </IconButton>
+
+          <Typography className="invited-username">
+            🎉 <strong>{invitedUsername}</strong> challenged you!
+            <br />
+            <span className="score-text">
+              Their score: {inviteeScore ?? "Loading..."}
+            </span>
+          </Typography>
+        </Paper>
       )}
     </Box>
   );

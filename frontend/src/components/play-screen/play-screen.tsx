@@ -43,12 +43,7 @@ export default function PlayScreen() {
 
   return (
     <div ref={playRef} className="play-screen-container">
-      <Header
-        username={username}
-        setUsername={setUsername}
-        invitedUsername={invitedUsername}
-        inviteeScore={inviteeScore}
-      />
+      <Header invitedUsername={invitedUsername} inviteeScore={inviteeScore} />
       {isCorrect && (
         <ReactConfetti
           width={window.innerWidth}

@@ -98,5 +98,5 @@ def generate_invite(username):
     if not user:
         return jsonify({"error": "User not found. Please register first."}), 404
 
-    invite_link = f"http://localhost:5173/?invite={username}"
+    invite_link = f"https://globetrotter-challenge-4tcs.vercel.app/?invite={username}"
     return jsonify({"invite_link": invite_link, "score": user.score})

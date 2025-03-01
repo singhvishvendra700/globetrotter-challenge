@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { Box, Button, Typography, IconButton, Tooltip } from "@mui/material";
-
+import DoneIcon from "@mui/icons-material/Done";
 import ContentCopyIcon from "@mui/icons-material/ContentCopy";
 import { useChallengeFriend } from "./hooks";
 
@@ -10,10 +10,10 @@ export default function ChallengeFriend({
   username: string | null;
 }) {
   const {
-    score,
     inviteLink,
     generatedImage,
     imageRef,
+    showAlert,
     handleChallenge,
     copyToClipboard,
     shareOnWhatsApp,
@@ -73,13 +73,7 @@ export default function ChallengeFriend({
         }}
       >
         <Typography variant="caption" color="success">
-          This is how the invited person will see it! 👀
-        </Typography>
-        <Typography variant="body1" fontWeight={600}>
-          {username} scored {score} points! 🎯
-        </Typography>
-        <Typography variant="body2" mt={1}>
-          Can you beat them?
+          Copy the below URL or share on WhatsApp
         </Typography>
 
         {inviteLink && (
@@ -98,10 +92,17 @@ export default function ChallengeFriend({
             <Typography variant="body2" sx={{ wordBreak: "break-all" }}>
               {inviteLink}
             </Typography>
-            <Tooltip title="Copy link">
-              <IconButton onClick={copyToClipboard} sx={{ ml: 1 }}>
-                <ContentCopyIcon fontSize="small" />
-              </IconButton>
+
+            <Tooltip title={!showAlert && "Copy link"}>
+              {showAlert ? (
+                <IconButton sx={{ ml: 1 }}>
+                  <DoneIcon fontSize="small" />
+                </IconButton>
+              ) : (
+                <IconButton onClick={copyToClipboard} sx={{ ml: 1 }}>
+                  <ContentCopyIcon fontSize="small" />
+                </IconButton>
+              )}
             </Tooltip>
           </Box>
         )}
@@ -110,7 +111,7 @@ export default function ChallengeFriend({
       <Button
         onClick={shareOnWhatsApp}
         variant="contained"
-        sx={{ mt: 2, width: "100%", bgcolor: "#25D366" }}
+        sx={{ mt: 2, width: "100%", textTransform: "none" }}
       >
         Share on WhatsApp 🚀
       </Button>
