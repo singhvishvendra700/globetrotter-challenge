@@ -5,6 +5,19 @@
 - **Flask**: Lightweight Python framework for API development.
 - **PostgreSQL**: Relational database for structured storage.
 
+## Dataset
+
+A starter dataset was provided, and I expanded it to over 100 destinations using AI tools like ChatGPT. The extended dataset is stored in `destinations.json`. To populate the database, I created a script `insert_data.py`, which inserts the data into the `destinations` table.et
+
+## Database Schema
+
+The backend uses PostgreSQL with SQLAlchemy to manage the database.
+
+**Destination Table**: Stores information about various destinations, including the city, country, clues for guessing, fun facts, and trivia.
+**User Table**: Stores player details, including their username and score.
+
+These tables ensure structured storage for the game, making it easier to fetch quiz-related data and track user progress.
+
 ## Setup Instructions
 
 ```sh

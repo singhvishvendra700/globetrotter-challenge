@@ -4,6 +4,10 @@ Globetrotter is an interactive travel-based guessing game where players use clue
 
 ---
 
+## **Dataset**
+
+A starter dataset was provided, and I expanded it to over 100 destinations using AI tools like ChatGPT. The extended dataset is stored in `destinations.json`. To populate the database, I created a script `insert_data.py`, which inserts the data into the `destinations` table.et
+
 ## Tech Stack & Choices
 
 ### **Backend: Flask (Python)**
