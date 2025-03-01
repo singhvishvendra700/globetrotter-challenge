@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import PlayScreen from "./components/play-screen/play-screen";
 import { useEffect } from "react";
-import "./App.css";
+import "./app.css";
 
 function App() {
   useEffect(() => {
