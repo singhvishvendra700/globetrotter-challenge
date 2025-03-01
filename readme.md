@@ -38,7 +38,7 @@ A starter dataset was provided, and I expanded it to over 100 destinations using
 
 ---
 
-## 📌 Setup Instructions
+## Setup Instructions
 
 ### **Backend Setup**
 
@@ -74,7 +74,7 @@ npm run dev
 
 ---
 
-## 🎮 How It Works
+## How It Works
 
 **Fetching Clues**: The app fetches a random destination and displays clues.
 **Answer Selection**: Users choose an answer from the given options.
