@@ -45,18 +45,36 @@ export const usePlayScreen = () => {
       .catch(() => setFeedback("Failed to load clues!"));
   };
 
-  const handleAnswerClick = (selected: string) => {
+  const handleAnswerClick = async (selected: string) => {
     if (!clue || selectedAnswer) return;
 
     setSelectedAnswer(selected);
-    const correct = selected === clue.correctAnswer;
-    setIsCorrect(correct);
 
-    if (correct) {
-      dispatch(incrementScore());
-      setFeedback(`🎉 Correct!`);
-    } else {
-      setFeedback(`😢 Incorrect!`);
+    try {
+      const response = await axios.get(
+        `${apiUrls().checkAnswer}/${clue.id}/${selected}`
+      );
+
+      const { correct, correctAnswer, funFact, trivia } = response.data;
+      setIsCorrect(correct);
+
+      if (correct) {
+        dispatch(incrementScore());
+        setFeedback(`🎉 Correct!`);
+      } else {
+        setFeedback(`😢 Incorrect!`);
+      }
+      setClue(
+        (prevState) =>
+          prevState && {
+            ...prevState,
+            correctAnswer: correctAnswer,
+            funFact: funFact,
+            trivia: trivia,
+          }
+      );
+    } catch (error) {
+      setFeedback("Failed to check answer!");
     }
   };
 

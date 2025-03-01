@@ -1,4 +1,5 @@
 export interface ClueData {
+  id: number;
   clues: string[];
   options: string[];
   correctAnswer: string;

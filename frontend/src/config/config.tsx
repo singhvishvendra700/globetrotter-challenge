@@ -7,5 +7,6 @@ export const apiUrls = () => {
     getUserScore: `${baseUrl}/get-user-score`,
     getRandomClues: `${baseUrl}/clues/random`,
     registerUser: `${baseUrl}/register`,
+    checkAnswer: `${baseUrl}/clues/check-answer`,
   };
 };
