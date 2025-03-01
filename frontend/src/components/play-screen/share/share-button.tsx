@@ -1,9 +1,7 @@
 import React from "react";
 import { Box, Button } from "@mui/material";
 import ShareIcon from "@mui/icons-material/Share";
-interface ShareButtonProps {
-  handleShare: () => void;
-}
+import { ShareButtonProps } from "../../../interface/interface";
 
 const ShareButton: React.FC<ShareButtonProps> = ({ handleShare }) => {
   return (

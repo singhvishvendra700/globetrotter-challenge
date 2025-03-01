@@ -1,10 +1,5 @@
 import { Typography, Box, Button, Paper } from "@mui/material";
-
-interface ScoreProps {
-  score: number;
-  fetchNewClue: () => void;
-  setHintIndex?: (index: number) => void;
-}
+import { ScoreProps } from "../../../interface/interface";
 
 const Score = ({ score, fetchNewClue, setHintIndex }: ScoreProps) => {
   const onClickNext = () => {

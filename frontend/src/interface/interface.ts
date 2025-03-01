@@ -44,3 +44,13 @@ export interface HeaderProps {
   invitedUsername: string | null;
   inviteeScore: number | null;
 }
+
+export interface ScoreProps {
+  score: number;
+  fetchNewClue: () => void;
+  setHintIndex?: (index: number) => void;
+}
+
+export interface ShareButtonProps {
+  handleShare: () => void;
+}

@@ -10,6 +10,7 @@ import { setImage } from "../../store/slice/shareSlice";
 import { ClueData } from "../../interface/interface";
 
 export const usePlayScreen = () => {
+  const dispatch = useDispatch();
   const [clue, setClue] = useState<ClueData | null>(null);
   const [feedback, setFeedback] = useState<string | null>(null);
   const [username, setUsername] = useState<string | null>(null);
@@ -21,7 +22,6 @@ export const usePlayScreen = () => {
   const [showShareModal, setShowShareModal] = useState(false);
   const playRef = useRef<HTMLDivElement>(null);
   const score = useSelector((state: RootState) => state.game.score);
-  const dispatch = useDispatch();
 
   const handleShare = async () => {
     if (playRef.current) {
@@ -33,7 +33,6 @@ export const usePlayScreen = () => {
   };
 
   const fetchNewClue = () => {
-    console.log("hii");
     setFeedback(null);
     setSelectedAnswer(null);
     setIsCorrect(null);
