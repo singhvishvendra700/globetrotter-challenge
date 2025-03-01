@@ -18,7 +18,7 @@ const Header = ({
             variant="outlined"
             color="error"
             onClick={() => {
-              // localStorage.removeItem("username");
+              localStorage.removeItem("username");
               setUsername(null);
             }}
           >

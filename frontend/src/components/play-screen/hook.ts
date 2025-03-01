@@ -12,10 +12,8 @@ import { ClueData } from "../../interface/interface";
 export const usePlayScreen = () => {
   const [clue, setClue] = useState<ClueData | null>(null);
   const [feedback, setFeedback] = useState<string | null>(null);
-  const [username, setUsername] = useState<string | null>(
-    () =>
-      // localStorage.getItem("username")
-      null
+  const [username, setUsername] = useState<string | null>(() =>
+    localStorage.getItem("username")
   );
   const [inviteeScore, setInviteeScore] = useState<number | null>(null);
   const [searchParams] = useSearchParams();
