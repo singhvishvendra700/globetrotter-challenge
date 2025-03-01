@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import axios from "axios";
 import { apiUrls } from "../../config/config";
-// import Header from "./header/header";
+import Header from "./header/header";
 import ClueCard from "./clue-card/clue-card";
 import Share from "../share/share";
 import { usePlayScreen } from "./hook";
@@ -15,7 +15,7 @@ export default function PlayScreen() {
     username,
     setUsername,
     invitedUsername,
-    // inviteeScore,
+    inviteeScore,
     setInviteeScore,
     selectedAnswer,
     isCorrect,
@@ -43,12 +43,12 @@ export default function PlayScreen() {
 
   return (
     <div ref={playRef} className="play-screen-container">
-      {/* <Header
+      <Header
         username={username}
         setUsername={setUsername}
         invitedUsername={invitedUsername}
         inviteeScore={inviteeScore}
-      /> */}
+      />
       {isCorrect && (
         <ReactConfetti
           width={window.innerWidth}
