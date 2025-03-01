@@ -2,16 +2,16 @@ import { Box, Typography, Paper, IconButton } from "@mui/material";
 import { HeaderProps } from "../../../interface/interface";
 import "./header.css";
 import CloseIcon from "@mui/icons-material/Close";
-import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 const Header = ({ invitedUsername, inviteeScore }: HeaderProps) => {
-  const navigate = useNavigate();
+  const [showModel, setShowModel] = useState(true);
   const onClose = () => {
-    navigate("/");
+    setShowModel(false);
   };
   return (
     <Box className="header-container">
-      {invitedUsername && (
+      {showModel && invitedUsername && (
         <Paper elevation={2} className="header-banner">
           <IconButton className="close-button" onClick={onClose}>
             <CloseIcon sx={{ color: "black", fontSize: 20 }} />

@@ -1,54 +1,38 @@
-# React + TypeScript + Vite
+# The Globetrotter Challenge - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tech Stack
 
-Currently, two official plugins are available:
+- **React (TypeScript)**: Frontend framework for building UI components.
+- **Redux**: State management.
+- **MUI**: For styling components.
+- **React Confetti**: For celebration effects.
+- **Framer Motion**: For animations.
+- **html2canvas**: For capturing screenshots.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Setup Instructions
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```sh
+git clone git@github.com:singhvishvendra700/globetrotter-challenge.git
+cd frontend
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Features
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- Interactive UI for quiz-based destination guessing.
+- Score tracking system.
+- Invite friends to play.
+- Animated UI elements and confetti celebrations.
+- Ability to capture and share game moments.
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## Flow
+
+**Fetching Clues**: The app fetches a random destination and displays clues.
+**Answer Selection**: Users choose an answer from the given options.
+**Answer Validation**: The app checks whether the selected answer is correct.
+**Celebration Effects**: If correct, confetti and animations enhance the experience.
+**Score Update**: If correct, the user’s score increases.
+**Fun Fact Display**: A fun fact about the destination is shown after answering.
+**User Registration**: Users enter a username to start sharing.
+**Invite Friends**: Users can generate an invite link to challenge their friends.

@@ -40,13 +40,6 @@ export const useChallengeFriend = ({ username }: ChallengeFriendProps) => {
     const storedImage = generatedImage;
     if (!storedImage) return alert("No preview image available!");
 
-    const a = document.createElement("a");
-    a.href = storedImage;
-    a.download = "globetrotter_challenge.png";
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-
     const message = `🚀 ${username} scored ${score} points in the Globetrotter Challenge! Can you beat them? Play now: ${inviteLink}`;
     const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(
       message
