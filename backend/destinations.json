@@ -1,0 +1,1602 @@
+[
+    {
+        "city": "Paris",
+        "country": "France",
+        "clues": [
+            "Home to a world-famous tower that sparkles at night.",
+            "Known for its rich art museums and romantic atmosphere."
+        ],
+        "fun_fact": [
+            "Paris has a rich history dating back centuries.",
+            "Paris is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Paris is iconic.",
+            "Paris has hosted major international events."
+        ]
+    },
+    {
+        "city": "Tokyo",
+        "country": "Japan",
+        "clues": [
+            "This city has the busiest pedestrian crossing in the world.",
+            "A place where ancient temples meet cutting-edge technology."
+        ],
+        "fun_fact": [
+            "Tokyo has a rich history dating back centuries.",
+            "Tokyo is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Tokyo is iconic.",
+            "Tokyo has hosted major international events."
+        ]
+    },
+    {
+        "city": "New York",
+        "country": "USA",
+        "clues": [
+            "A city that never sleeps, known for its bright lights and Broadway shows.",
+            "Famous for a green statue that was a gift from France."
+        ],
+        "fun_fact": [
+            "New York has a rich history dating back centuries.",
+            "New York is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of New York is iconic.",
+            "New York has hosted major international events."
+        ]
+    },
+    {
+        "city": "Sydney",
+        "country": "Australia",
+        "clues": [
+            "Famous for a performing arts venue with sail-like architecture.",
+            "Has one of the world’s most famous harbor bridges."
+        ],
+        "fun_fact": [
+            "Sydney has a rich history dating back centuries.",
+            "Sydney is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Sydney is iconic.",
+            "Sydney has hosted major international events."
+        ]
+    },
+    {
+        "city": "Rio de Janeiro",
+        "country": "Brazil",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Rio de Janeiro has a rich history dating back centuries.",
+            "Rio de Janeiro is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Rio de Janeiro is iconic.",
+            "Rio de Janeiro has hosted major international events."
+        ]
+    },
+    {
+        "city": "Cairo",
+        "country": "Egypt",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Cairo has a rich history dating back centuries.",
+            "Cairo is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Cairo is iconic.",
+            "Cairo has hosted major international events."
+        ]
+    },
+    {
+        "city": "Beijing",
+        "country": "China",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Beijing has a rich history dating back centuries.",
+            "Beijing is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Beijing is iconic.",
+            "Beijing has hosted major international events."
+        ]
+    },
+    {
+        "city": "London",
+        "country": "UK",
+        "clues": [
+            "You can hear the chimes of a famous clock tower here.",
+            "The home of a royal family that resides in a grand palace."
+        ],
+        "fun_fact": [
+            "London has a rich history dating back centuries.",
+            "London is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of London is iconic.",
+            "London has hosted major international events."
+        ]
+    },
+    {
+        "city": "Berlin",
+        "country": "Germany",
+        "clues": [
+            "A city once divided by a concrete barrier, now a symbol of unity.",
+            "Famous for its historic gate that represents freedom."
+        ],
+        "fun_fact": [
+            "Berlin has a rich history dating back centuries.",
+            "Berlin is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Berlin is iconic.",
+            "Berlin has hosted major international events."
+        ]
+    },
+    {
+        "city": "Toronto",
+        "country": "Canada",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Toronto has a rich history dating back centuries.",
+            "Toronto is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Toronto is iconic.",
+            "Toronto has hosted major international events."
+        ]
+    },
+    {
+        "city": "Cape Town",
+        "country": "South Africa",
+        "clues": [
+            "Located at the foot of a flat-topped mountain.",
+            "A city known for its beautiful coastal scenery and vineyards."
+        ],
+        "fun_fact": [
+            "Cape Town has a rich history dating back centuries.",
+            "Cape Town is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Cape Town is iconic.",
+            "Cape Town has hosted major international events."
+        ]
+    },
+    {
+        "city": "Dubai",
+        "country": "UAE",
+        "clues": [
+            "This city boasts the tallest building in the world.",
+            "Known for its luxurious shopping malls and artificial islands."
+        ],
+        "fun_fact": [
+            "Dubai has a rich history dating back centuries.",
+            "Dubai is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Dubai is iconic.",
+            "Dubai has hosted major international events."
+        ]
+    },
+    {
+        "city": "Mumbai",
+        "country": "India",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Mumbai has a rich history dating back centuries.",
+            "Mumbai is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Mumbai is iconic.",
+            "Mumbai has hosted major international events."
+        ]
+    },
+    {
+        "city": "Athens",
+        "country": "Greece",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Athens has a rich history dating back centuries.",
+            "Athens is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Athens is iconic.",
+            "Athens has hosted major international events."
+        ]
+    },
+    {
+        "city": "Bangkok",
+        "country": "Thailand",
+        "clues": [
+            "Hosts a dazzling golden palace and is famous for floating markets.",
+            "A city where street food culture is a way of life."
+        ],
+        "fun_fact": [
+            "Bangkok has a rich history dating back centuries.",
+            "Bangkok is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Bangkok is iconic.",
+            "Bangkok has hosted major international events."
+        ]
+    },
+    {
+        "city": "Budapest",
+        "country": "Hungary",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Budapest has a rich history dating back centuries.",
+            "Budapest is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Budapest is iconic.",
+            "Budapest has hosted major international events."
+        ]
+    },
+    {
+        "city": "Helsinki",
+        "country": "Finland",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Helsinki has a rich history dating back centuries.",
+            "Helsinki is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Helsinki is iconic.",
+            "Helsinki has hosted major international events."
+        ]
+    },
+    {
+        "city": "Prague",
+        "country": "Czech Republic",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Prague has a rich history dating back centuries.",
+            "Prague is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Prague is iconic.",
+            "Prague has hosted major international events."
+        ]
+    },
+    {
+        "city": "Rome",
+        "country": "Italy",
+        "clues": [
+            "This city is home to an ancient amphitheater that hosted gladiator battles.",
+            "It was once the heart of a great empire."
+        ],
+        "fun_fact": [
+            "Rome has a rich history dating back centuries.",
+            "Rome is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Rome is iconic.",
+            "Rome has hosted major international events."
+        ]
+    },
+    {
+        "city": "Jakarta",
+        "country": "Indonesia",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Jakarta has a rich history dating back centuries.",
+            "Jakarta is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Jakarta is iconic.",
+            "Jakarta has hosted major international events."
+        ]
+    },
+    {
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Amsterdam has a rich history dating back centuries.",
+            "Amsterdam is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Amsterdam is iconic.",
+            "Amsterdam has hosted major international events."
+        ]
+    },
+    {
+        "city": "Vienna",
+        "country": "Austria",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Vienna has a rich history dating back centuries.",
+            "Vienna is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Vienna is iconic.",
+            "Vienna has hosted major international events."
+        ]
+    },
+    {
+        "city": "Oslo",
+        "country": "Norway",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Oslo has a rich history dating back centuries.",
+            "Oslo is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Oslo is iconic.",
+            "Oslo has hosted major international events."
+        ]
+    },
+    {
+        "city": "Kuala Lumpur",
+        "country": "Malaysia",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Kuala Lumpur has a rich history dating back centuries.",
+            "Kuala Lumpur is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Kuala Lumpur is iconic.",
+            "Kuala Lumpur has hosted major international events."
+        ]
+    },
+    {
+        "city": "Seoul",
+        "country": "South Korea",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Seoul has a rich history dating back centuries.",
+            "Seoul is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Seoul is iconic.",
+            "Seoul has hosted major international events."
+        ]
+    },
+    {
+        "city": "Copenhagen",
+        "country": "Denmark",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Copenhagen has a rich history dating back centuries.",
+            "Copenhagen is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Copenhagen is iconic.",
+            "Copenhagen has hosted major international events."
+        ]
+    },
+    {
+        "city": "Madrid",
+        "country": "Spain",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Madrid has a rich history dating back centuries.",
+            "Madrid is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Madrid is iconic.",
+            "Madrid has hosted major international events."
+        ]
+    },
+    {
+        "city": "Stockholm",
+        "country": "Sweden",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Stockholm has a rich history dating back centuries.",
+            "Stockholm is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Stockholm is iconic.",
+            "Stockholm has hosted major international events."
+        ]
+    },
+    {
+        "city": "Lisbon",
+        "country": "Portugal",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Lisbon has a rich history dating back centuries.",
+            "Lisbon is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Lisbon is iconic.",
+            "Lisbon has hosted major international events."
+        ]
+    },
+    {
+        "city": "Istanbul",
+        "country": "Turkey",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Istanbul has a rich history dating back centuries.",
+            "Istanbul is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Istanbul is iconic.",
+            "Istanbul has hosted major international events."
+        ]
+    },
+    {
+        "city": "Buenos Aires",
+        "country": "Argentina",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Buenos Aires has a rich history dating back centuries.",
+            "Buenos Aires is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Buenos Aires is iconic.",
+            "Buenos Aires has hosted major international events."
+        ]
+    },
+    {
+        "city": "Warsaw",
+        "country": "Poland",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Warsaw has a rich history dating back centuries.",
+            "Warsaw is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Warsaw is iconic.",
+            "Warsaw has hosted major international events."
+        ]
+    },
+    {
+        "city": "Moscow",
+        "country": "Russia",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Moscow has a rich history dating back centuries.",
+            "Moscow is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Moscow is iconic.",
+            "Moscow has hosted major international events."
+        ]
+    },
+    {
+        "city": "Mexico City",
+        "country": "Mexico",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Mexico City has a rich history dating back centuries.",
+            "Mexico City is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Mexico City is iconic.",
+            "Mexico City has hosted major international events."
+        ]
+    },
+    {
+        "city": "Dublin",
+        "country": "Ireland",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Dublin has a rich history dating back centuries.",
+            "Dublin is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Dublin is iconic.",
+            "Dublin has hosted major international events."
+        ]
+    },
+    {
+        "city": "West Brandonside",
+        "country": "Cook Islands",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "West Brandonside has a rich history dating back centuries.",
+            "West Brandonside is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of West Brandonside is iconic.",
+            "West Brandonside has hosted major international events."
+        ]
+    },
+    {
+        "city": "Stephensborough",
+        "country": "Paraguay",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Stephensborough has a rich history dating back centuries.",
+            "Stephensborough is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Stephensborough is iconic.",
+            "Stephensborough has hosted major international events."
+        ]
+    },
+    {
+        "city": "Lake Meredithmouth",
+        "country": "Faroe Islands",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Lake Meredithmouth has a rich history dating back centuries.",
+            "Lake Meredithmouth is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Lake Meredithmouth is iconic.",
+            "Lake Meredithmouth has hosted major international events."
+        ]
+    },
+    {
+        "city": "West Katherineview",
+        "country": "Serbia",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "West Katherineview has a rich history dating back centuries.",
+            "West Katherineview is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of West Katherineview is iconic.",
+            "West Katherineview has hosted major international events."
+        ]
+    },
+    {
+        "city": "Deannastad",
+        "country": "Bhutan",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Deannastad has a rich history dating back centuries.",
+            "Deannastad is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Deannastad is iconic.",
+            "Deannastad has hosted major international events."
+        ]
+    },
+    {
+        "city": "Davidview",
+        "country": "Bosnia and Herzegovina",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Davidview has a rich history dating back centuries.",
+            "Davidview is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Davidview is iconic.",
+            "Davidview has hosted major international events."
+        ]
+    },
+    {
+        "city": "Hernandezland",
+        "country": "Nicaragua",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Hernandezland has a rich history dating back centuries.",
+            "Hernandezland is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Hernandezland is iconic.",
+            "Hernandezland has hosted major international events."
+        ]
+    },
+    {
+        "city": "Lake Sharonborough",
+        "country": "Turkmenistan",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Lake Sharonborough has a rich history dating back centuries.",
+            "Lake Sharonborough is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Lake Sharonborough is iconic.",
+            "Lake Sharonborough has hosted major international events."
+        ]
+    },
+    {
+        "city": "Isaiahstad",
+        "country": "Malawi",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Isaiahstad has a rich history dating back centuries.",
+            "Isaiahstad is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Isaiahstad is iconic.",
+            "Isaiahstad has hosted major international events."
+        ]
+    },
+    {
+        "city": "East James",
+        "country": "Slovenia",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "East James has a rich history dating back centuries.",
+            "East James is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of East James is iconic.",
+            "East James has hosted major international events."
+        ]
+    },
+    {
+        "city": "West Aliceberg",
+        "country": "Malaysia",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "West Aliceberg has a rich history dating back centuries.",
+            "West Aliceberg is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of West Aliceberg is iconic.",
+            "West Aliceberg has hosted major international events."
+        ]
+    },
+    {
+        "city": "Floresmouth",
+        "country": "Montenegro",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Floresmouth has a rich history dating back centuries.",
+            "Floresmouth is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Floresmouth is iconic.",
+            "Floresmouth has hosted major international events."
+        ]
+    },
+    {
+        "city": "Kevinton",
+        "country": "Tajikistan",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Kevinton has a rich history dating back centuries.",
+            "Kevinton is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Kevinton is iconic.",
+            "Kevinton has hosted major international events."
+        ]
+    },
+    {
+        "city": "Jeremyfurt",
+        "country": "Qatar",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Jeremyfurt has a rich history dating back centuries.",
+            "Jeremyfurt is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Jeremyfurt is iconic.",
+            "Jeremyfurt has hosted major international events."
+        ]
+    },
+    {
+        "city": "North Gina",
+        "country": "Nepal",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "North Gina has a rich history dating back centuries.",
+            "North Gina is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of North Gina is iconic.",
+            "North Gina has hosted major international events."
+        ]
+    },
+    {
+        "city": "Oconnorstad",
+        "country": "Falkland Islands (Malvinas)",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Oconnorstad has a rich history dating back centuries.",
+            "Oconnorstad is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Oconnorstad is iconic.",
+            "Oconnorstad has hosted major international events."
+        ]
+    },
+    {
+        "city": "Lake Thomas",
+        "country": "Mayotte",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Lake Thomas has a rich history dating back centuries.",
+            "Lake Thomas is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Lake Thomas is iconic.",
+            "Lake Thomas has hosted major international events."
+        ]
+    },
+    {
+        "city": "Willischester",
+        "country": "El Salvador",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Willischester has a rich history dating back centuries.",
+            "Willischester is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Willischester is iconic.",
+            "Willischester has hosted major international events."
+        ]
+    },
+    {
+        "city": "Winterston",
+        "country": "Nicaragua",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Winterston has a rich history dating back centuries.",
+            "Winterston is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Winterston is iconic.",
+            "Winterston has hosted major international events."
+        ]
+    },
+    {
+        "city": "West Zacharybury",
+        "country": "Papua New Guinea",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "West Zacharybury has a rich history dating back centuries.",
+            "West Zacharybury is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of West Zacharybury is iconic.",
+            "West Zacharybury has hosted major international events."
+        ]
+    },
+    {
+        "city": "East Morgan",
+        "country": "Ecuador",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "East Morgan has a rich history dating back centuries.",
+            "East Morgan is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of East Morgan is iconic.",
+            "East Morgan has hosted major international events."
+        ]
+    },
+    {
+        "city": "Campbellfort",
+        "country": "Mali",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Campbellfort has a rich history dating back centuries.",
+            "Campbellfort is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Campbellfort is iconic.",
+            "Campbellfort has hosted major international events."
+        ]
+    },
+    {
+        "city": "Jessicafort",
+        "country": "Costa Rica",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Jessicafort has a rich history dating back centuries.",
+            "Jessicafort is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Jessicafort is iconic.",
+            "Jessicafort has hosted major international events."
+        ]
+    },
+    {
+        "city": "Victorhaven",
+        "country": "Costa Rica",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Victorhaven has a rich history dating back centuries.",
+            "Victorhaven is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Victorhaven is iconic.",
+            "Victorhaven has hosted major international events."
+        ]
+    },
+    {
+        "city": "Kimberlyshire",
+        "country": "Afghanistan",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Kimberlyshire has a rich history dating back centuries.",
+            "Kimberlyshire is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Kimberlyshire is iconic.",
+            "Kimberlyshire has hosted major international events."
+        ]
+    },
+    {
+        "city": "Tracyfurt",
+        "country": "Guyana",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Tracyfurt has a rich history dating back centuries.",
+            "Tracyfurt is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Tracyfurt is iconic.",
+            "Tracyfurt has hosted major international events."
+        ]
+    },
+    {
+        "city": "Grahammouth",
+        "country": "Myanmar",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Grahammouth has a rich history dating back centuries.",
+            "Grahammouth is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Grahammouth is iconic.",
+            "Grahammouth has hosted major international events."
+        ]
+    },
+    {
+        "city": "West Timothyburgh",
+        "country": "Finland",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "West Timothyburgh has a rich history dating back centuries.",
+            "West Timothyburgh is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of West Timothyburgh is iconic.",
+            "West Timothyburgh has hosted major international events."
+        ]
+    },
+    {
+        "city": "New Claudia",
+        "country": "Puerto Rico",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "New Claudia has a rich history dating back centuries.",
+            "New Claudia is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of New Claudia is iconic.",
+            "New Claudia has hosted major international events."
+        ]
+    },
+    {
+        "city": "East Paulside",
+        "country": "Sri Lanka",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "East Paulside has a rich history dating back centuries.",
+            "East Paulside is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of East Paulside is iconic.",
+            "East Paulside has hosted major international events."
+        ]
+    },
+    {
+        "city": "Townsendberg",
+        "country": "Suriname",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Townsendberg has a rich history dating back centuries.",
+            "Townsendberg is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Townsendberg is iconic.",
+            "Townsendberg has hosted major international events."
+        ]
+    },
+    {
+        "city": "Lake Sheri",
+        "country": "Central African Republic",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Lake Sheri has a rich history dating back centuries.",
+            "Lake Sheri is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Lake Sheri is iconic.",
+            "Lake Sheri has hosted major international events."
+        ]
+    },
+    {
+        "city": "Powellland",
+        "country": "Saint Vincent and the Grenadines",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Powellland has a rich history dating back centuries.",
+            "Powellland is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Powellland is iconic.",
+            "Powellland has hosted major international events."
+        ]
+    },
+    {
+        "city": "New Kendra",
+        "country": "Saint Lucia",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "New Kendra has a rich history dating back centuries.",
+            "New Kendra is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of New Kendra is iconic.",
+            "New Kendra has hosted major international events."
+        ]
+    },
+    {
+        "city": "Davidmouth",
+        "country": "Liberia",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Davidmouth has a rich history dating back centuries.",
+            "Davidmouth is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Davidmouth is iconic.",
+            "Davidmouth has hosted major international events."
+        ]
+    },
+    {
+        "city": "South Laura",
+        "country": "Ukraine",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "South Laura has a rich history dating back centuries.",
+            "South Laura is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of South Laura is iconic.",
+            "South Laura has hosted major international events."
+        ]
+    },
+    {
+        "city": "North Alexander",
+        "country": "Saint Helena",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "North Alexander has a rich history dating back centuries.",
+            "North Alexander is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of North Alexander is iconic.",
+            "North Alexander has hosted major international events."
+        ]
+    },
+    {
+        "city": "South Margaret",
+        "country": "Nicaragua",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "South Margaret has a rich history dating back centuries.",
+            "South Margaret is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of South Margaret is iconic.",
+            "South Margaret has hosted major international events."
+        ]
+    },
+    {
+        "city": "North Briana",
+        "country": "Burundi",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "North Briana has a rich history dating back centuries.",
+            "North Briana is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of North Briana is iconic.",
+            "North Briana has hosted major international events."
+        ]
+    },
+    {
+        "city": "New Jacquelineville",
+        "country": "Northern Mariana Islands",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "New Jacquelineville has a rich history dating back centuries.",
+            "New Jacquelineville is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of New Jacquelineville is iconic.",
+            "New Jacquelineville has hosted major international events."
+        ]
+    },
+    {
+        "city": "Brianview",
+        "country": "Tunisia",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Brianview has a rich history dating back centuries.",
+            "Brianview is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Brianview is iconic.",
+            "Brianview has hosted major international events."
+        ]
+    },
+    {
+        "city": "Port Kendrabury",
+        "country": "Namibia",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Port Kendrabury has a rich history dating back centuries.",
+            "Port Kendrabury is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Port Kendrabury is iconic.",
+            "Port Kendrabury has hosted major international events."
+        ]
+    },
+    {
+        "city": "North Rebeccaside",
+        "country": "French Polynesia",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "North Rebeccaside has a rich history dating back centuries.",
+            "North Rebeccaside is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of North Rebeccaside is iconic.",
+            "North Rebeccaside has hosted major international events."
+        ]
+    },
+    {
+        "city": "Barbarafort",
+        "country": "Bangladesh",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Barbarafort has a rich history dating back centuries.",
+            "Barbarafort is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Barbarafort is iconic.",
+            "Barbarafort has hosted major international events."
+        ]
+    },
+    {
+        "city": "North Justin",
+        "country": "United Kingdom",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "North Justin has a rich history dating back centuries.",
+            "North Justin is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of North Justin is iconic.",
+            "North Justin has hosted major international events."
+        ]
+    },
+    {
+        "city": "Lake Michael",
+        "country": "Nigeria",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Lake Michael has a rich history dating back centuries.",
+            "Lake Michael is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Lake Michael is iconic.",
+            "Lake Michael has hosted major international events."
+        ]
+    },
+    {
+        "city": "Ericland",
+        "country": "Tonga",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Ericland has a rich history dating back centuries.",
+            "Ericland is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Ericland is iconic.",
+            "Ericland has hosted major international events."
+        ]
+    },
+    {
+        "city": "East Kevin",
+        "country": "Western Sahara",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "East Kevin has a rich history dating back centuries.",
+            "East Kevin is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of East Kevin is iconic.",
+            "East Kevin has hosted major international events."
+        ]
+    },
+    {
+        "city": "Lake Coryton",
+        "country": "Ethiopia",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Lake Coryton has a rich history dating back centuries.",
+            "Lake Coryton is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Lake Coryton is iconic.",
+            "Lake Coryton has hosted major international events."
+        ]
+    },
+    {
+        "city": "Lunaview",
+        "country": "Netherlands Antilles",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Lunaview has a rich history dating back centuries.",
+            "Lunaview is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Lunaview is iconic.",
+            "Lunaview has hosted major international events."
+        ]
+    },
+    {
+        "city": "Kathrynberg",
+        "country": "Australia",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Kathrynberg has a rich history dating back centuries.",
+            "Kathrynberg is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Kathrynberg is iconic.",
+            "Kathrynberg has hosted major international events."
+        ]
+    },
+    {
+        "city": "West Jack",
+        "country": "Portugal",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "West Jack has a rich history dating back centuries.",
+            "West Jack is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of West Jack is iconic.",
+            "West Jack has hosted major international events."
+        ]
+    },
+    {
+        "city": "Melissachester",
+        "country": "Paraguay",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Melissachester has a rich history dating back centuries.",
+            "Melissachester is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Melissachester is iconic.",
+            "Melissachester has hosted major international events."
+        ]
+    },
+    {
+        "city": "New Patrickchester",
+        "country": "Cook Islands",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "New Patrickchester has a rich history dating back centuries.",
+            "New Patrickchester is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of New Patrickchester is iconic.",
+            "New Patrickchester has hosted major international events."
+        ]
+    },
+    {
+        "city": "Lake Karla",
+        "country": "Botswana",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Lake Karla has a rich history dating back centuries.",
+            "Lake Karla is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Lake Karla is iconic.",
+            "Lake Karla has hosted major international events."
+        ]
+    },
+    {
+        "city": "West Walterview",
+        "country": "Mozambique",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "West Walterview has a rich history dating back centuries.",
+            "West Walterview is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of West Walterview is iconic.",
+            "West Walterview has hosted major international events."
+        ]
+    },
+    {
+        "city": "West Ronald",
+        "country": "Cocos (Keeling) Islands",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "West Ronald has a rich history dating back centuries.",
+            "West Ronald is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of West Ronald is iconic.",
+            "West Ronald has hosted major international events."
+        ]
+    },
+    {
+        "city": "Alexandraborough",
+        "country": "Russian Federation",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Alexandraborough has a rich history dating back centuries.",
+            "Alexandraborough is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Alexandraborough is iconic.",
+            "Alexandraborough has hosted major international events."
+        ]
+    },
+    {
+        "city": "Perezfurt",
+        "country": "Burkina Faso",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Perezfurt has a rich history dating back centuries.",
+            "Perezfurt is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Perezfurt is iconic.",
+            "Perezfurt has hosted major international events."
+        ]
+    },
+    {
+        "city": "Shelleybury",
+        "country": "Mali",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Shelleybury has a rich history dating back centuries.",
+            "Shelleybury is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Shelleybury is iconic.",
+            "Shelleybury has hosted major international events."
+        ]
+    },
+    {
+        "city": "Gardnerstad",
+        "country": "Benin",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Gardnerstad has a rich history dating back centuries.",
+            "Gardnerstad is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Gardnerstad is iconic.",
+            "Gardnerstad has hosted major international events."
+        ]
+    },
+    {
+        "city": "Port Johnside",
+        "country": "Norway",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Port Johnside has a rich history dating back centuries.",
+            "Port Johnside is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Port Johnside is iconic.",
+            "Port Johnside has hosted major international events."
+        ]
+    },
+    {
+        "city": "Melissashire",
+        "country": "Senegal",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Melissashire has a rich history dating back centuries.",
+            "Melissashire is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Melissashire is iconic.",
+            "Melissashire has hosted major international events."
+        ]
+    },
+    {
+        "city": "Rebeccaton",
+        "country": "Western Sahara",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Rebeccaton has a rich history dating back centuries.",
+            "Rebeccaton is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Rebeccaton is iconic.",
+            "Rebeccaton has hosted major international events."
+        ]
+    },
+    {
+        "city": "Gordonchester",
+        "country": "Myanmar",
+        "clues": [
+            "A place known for its rich history and iconic landmarks.",
+            "A major cultural and economic hub in its region."
+        ],
+        "fun_fact": [
+            "Gordonchester has a rich history dating back centuries.",
+            "Gordonchester is famous for its unique attractions."
+        ],
+        "trivia": [
+            "The skyline of Gordonchester is iconic.",
+            "Gordonchester has hosted major international events."
+        ]
+    }
+]

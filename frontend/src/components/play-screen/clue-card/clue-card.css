@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 400px;
+}
+
+.top-container {
+    height: 2px;
+    background:linear-gradient(to right, #ff80b5, #ffbc42, #1fbcac);
+    animation: gradientX 3s infinite linear;
+}
