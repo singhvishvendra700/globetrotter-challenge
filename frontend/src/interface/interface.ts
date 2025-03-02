@@ -24,7 +24,13 @@ export interface ShareState {
 }
 
 export interface ClueCardProps {
-  clue: ClueData | null;
+  clue: {
+    clues: string[];
+    correctAnswer: string;
+    funFact: string;
+    options: string[];
+    trivia: string;
+  } | null; // Allow clue to be null
   selectedAnswer: string | null;
   isCorrect: boolean;
   handleAnswerClick: (answer: string) => void;

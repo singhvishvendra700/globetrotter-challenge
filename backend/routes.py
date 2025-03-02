@@ -1,10 +1,11 @@
 from flask import Blueprint, jsonify, request
-from models import db, Destination, User, Session
+from models import db, Destination, User
 from uuid import uuid4
 import random
 
 api = Blueprint("api", __name__)
 
+active_sessions = {}
 
 @api.route("/clues/random", methods=["GET"])
 def get_random_clue():
@@ -18,27 +19,21 @@ def get_random_clue():
     random.shuffle(options)
 
     session_id = str(uuid4())
-    existing_session = Session.query.get(session_id)
-    if existing_session:
-        session_id = str(uuid4())
-
-    session = Session(destination_id=destination.id)
-    db.session.add(session)
-    db.session.commit()
+    active_sessions[session_id] = destination.id
 
     return jsonify({
-        "session_id": session.id,
+        "session_id": session_id,
         "clues": clues,
         "options": options,
     })
 
 @api.route("/clues/check-answer/<string:session_id>/<string:answer>", methods=["GET"])
 def check_answer(session_id, answer):
-    session = Session.query.get(session_id)
-    if not session:
+    destination_id = active_sessions.get(session_id)
+    if not destination_id:
         return jsonify({"error": "Invalid session"}), 400
 
-    destination = session.destination
+    destination = Destination.query.get(destination_id)
     if not destination:
         return jsonify({"error": "Destination not found"}), 404
     correct = answer.lower() == destination.city.lower()
