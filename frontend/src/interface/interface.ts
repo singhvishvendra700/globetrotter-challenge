@@ -1,5 +1,5 @@
 export interface ClueData {
-  session_id: number;
+  id: number;
   clues: string[];
   options: string[];
   correctAnswer: string;

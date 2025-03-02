@@ -51,7 +51,7 @@ export const usePlayScreen = () => {
 
     try {
       const response = await axios.get(
-        `${apiUrls().checkAnswer}/${clue.session_id}/${selected}`
+        `${apiUrls().checkAnswer}/${clue.id}/${selected}`
       );
 
       const { correct, correctAnswer, funFact, trivia } = response.data;

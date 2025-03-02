@@ -41,7 +41,7 @@ GET /clues/random
 
 ```json
 {
-  "session_id": "27d98b08-1bc1-40c0-800c-b15d80827a77",
+  "id": 1,
   "clues": ["Capital city of France", "Famous for Eiffel Tower"],
   "options": ["Paris", "London", "Berlin", "Rome"]
 }
@@ -50,7 +50,7 @@ GET /clues/random
 ### Check Answer
 
 ```http
-GET /clues/check-answer/<int:session_id>/<string:answer>
+GET /clues/check-answer/<int:id>/<string:answer>
 ```
 
 **Response:**
